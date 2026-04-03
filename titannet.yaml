@@ -1,0 +1,49 @@
+payload:
+# TiTannet路由规则
+# TiTannet进程匹配
+- PROCESS-NAME,titan_network.exe
+
+# TiTannet目标端口匹配
+- DST-PORT,1234
+- DST-PORT,2345
+- DST-PORT,3456
+- DST-PORT,5000
+
+# TiTannet_关键词匹配域名
+- DOMAIN-KEYWORD,titannet
+
+# TiTannet域名及后缀匹配
+- DOMAIN-SUFFIX,titannet.io
+- DOMAIN,test1.titannet.io
+- DOMAIN,cassini-us-locator.titannet.io
+- DOMAIN,cassini-ger-locator.titannet.io
+- DOMAIN,api-test1.container1.titannet.io
+- DOMAIN,cassini-locator.titannet.io
+- DOMAIN,test17-scheduler.titannet.io
+- DOMAIN,test18-scheduler.titannet.io
+- DOMAIN,test19-scheduler.titannet.io
+- DOMAIN,test20-scheduler.titannet.io
+- DOMAIN,test21-scheduler.titannet.io
+- DOMAIN,test22-scheduler.titannet.io
+- DOMAIN,test23-scheduler.titannet.io
+- DOMAIN,test24-scheduler.titannet.io
+- DOMAIN,test25-scheduler.titannet.io
+- DOMAIN,test26-scheduler.titannet.io
+- DOMAIN,test27-scheduler.titannet.io
+- DOMAIN,test28-scheduler.titannet.io
+
+
+# TiTannet_IP-CIDR匹配
+- IP-CIDR,8.208.0.0/12,no-resolve
+- IP-CIDR,14.128.0.0/12,no-resolve
+- IP-CIDR,34.160.0.0/12,no-resolve
+- IP-CIDR,47.64.0.0/12,no-resolve
+- IP-CIDR,47.224.0.0/12,no-resolve
+- IP-CIDR,47.240.0.0/12,no-resolve
+- IP-CIDR,130.158.0.0/12,no-resolve
+- IP-CIDR,154.38.0.0/12,no-resolve
+- IP-CIDR,173.208.0.0/12,no-resolve
+- IP-CIDR,183.224.0.0/12,no-resolve
+- IP-CIDR,216.144.0.0/12,no-resolve
+
+
