@@ -2,6 +2,8 @@ payload:
 # TiTannet路由规则
 # TiTannet进程匹配
 - PROCESS-NAME,titan_network.exe
+- PROCESS-NAME,Discord.exe
+
 
 # TiTannet目标端口匹配
 - DST-PORT,1234
@@ -11,9 +13,11 @@ payload:
 
 # TiTannet_关键词匹配域名
 - DOMAIN-KEYWORD,titannet
+- DOMAIN-KEYWORD,Discord
 
 # TiTannet域名及后缀匹配
 - DOMAIN-SUFFIX,titannet.io
+- DOMAIN-SUFFIX,discord.gg
 - DOMAIN,test1.titannet.io
 - DOMAIN,cassini-us-locator.titannet.io
 - DOMAIN,cassini-ger-locator.titannet.io
